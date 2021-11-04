@@ -3,7 +3,7 @@ package com.metanit.functionsprogramming.inlineandlocalfun
 fun compareAge(age1: Int, age2: Int){
 
     fun ageIsValid(age: Int): Boolean{
-        return age > 0 && age < 111
+        return age in 1..110
     }
     if( !ageIsValid(age1) || !ageIsValid(age2)) {
         println("Invalid age")

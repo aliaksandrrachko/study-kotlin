@@ -12,4 +12,3 @@ fun main() {
     val a = sum(1,2)
     val b = sum(1.1, 2.3)
 }
-
